@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurBook</title>
+    <link href="frontend/libraries/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" 
+    href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row row-cols">
+            <nav class=" col navbar navbar-expand-lg navbar-expand-md fixed-top navbar-light bg-white border-top-0">
+                <a href="#" class="navbar-brand ml-2 ">
+                    <img  src="frontend/images/icon_projek.png" alt="Logo">
+                </a>
+    
+                <form class="col form-inline search-collapse navbar-search" id="searchDropdown">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="search..." aria-label="search" aria-describedby="basic-addon2">
+                      <div class="input-group-prepend">
+                        <button type="button" class="input-group-text search-logos"><i class="fas fa-search fa-sm"></i></button>
+                      </div>
+                    </div>
+                  </form>
+    
+    
+                <button class="navbar-toggler navbar-toggler-right "
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb"
+                >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+               <div class="collapse navbar-collapse" id="navb">
+                    <ul class="navbar-nav ml-auto mr-3">
+                        <li class="nav-item mx-md-0 px-0">
+                            <a href="#" class="nav-link btn">
+                                <img class="profile-photo-nav mr-1" src="frontend/images/profile.png" alt="">
+                                Elfarian
+                            </a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#" class="nav-link btn ">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="#" class="nav-link btn ">
+                                Activity
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item dropdown btn">
+                            <a href="" class="nav-link mx-md-2 dropdown-toggle" id="navbardrop"
+                            data-toggle="dropdown">
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a href="#" class="dropdown-item"><i class="fas fa-envelope fa-fw"></i> My Chat</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Setting</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+               </div>
+            </nav>
+        </div>
+    </div>
+
+<header  style="background-image: url('frontend/images/header.jpg');">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col myprofile">
+                <div class="text-center col-12" style="color: white;">
+                    <img class="rounded-circle border" src="frontend/images/profile.png" alt="">
+                    <h2> Elfarian Dela Virdausa</h2>
+                    <h3>@elfarian</h3>
+                    <p style="font-size: small; color: #E8E7E7; margin-bottom: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eligendi exercitationem porro facilis dolor corporis reiciendis accusamus veritatis! Tempore iusto impedit esse! Assumenda vitae laudantium molestias praesentium, sit quas fugit.</p>
+                    <a href="#" class="btn btn-edit-profile mt-2 mb-0">Message</a>
+                    <a href="#" class="btn btn-edit-profile mt-2 mb-0 follow">Follow</a>
+                    <a href="#" class="btn btn-edit-profile mt-2 mb-0">Edit Profile</a>
+                </div>   
+            </div>
+        </div>
+    </div>
+</header>
+<section class="mb-2">
+    <div class="row justify-content-center my-1">
+        <div class="btn col-3 border mx-2">6 Posts</div>
+        <div class="btn btn-upload col-3 border mx-2">
+        <a href="#" class=" jumlahfollowers" >390</a> Followers
+        </div>
+        <a href="#" class="btn btn-upload col-3 border mx-2">390 Follwing</a>
+    </div>
+</section>
+
+<section>
+    <div class="row justify-content-center my-1">
+        <div class="btn col-sm border-top mx-0 point-to">
+            <a href="#" class="btn btn-upload border mx-0">Photo</a>
+            <a href="#" class="btn btn-upload border mx-0 active">Status</a>
+        </div>
+    </div>
+</section>
+
+<!--isi status di profile-->
+<div class="container">
+    <div class="row border-top">
+        <div class="col-12 border isistatus mb-4">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="align-top">
+                                <img class="foto-status rounded-circle border" src="frontend/images/profile.png" alt="">
+                                    <td>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                            Elfarian Dela Virduasa
+                                            </th>
+                                            <td>@elfarian </td>
+                                         </tr>
+                                         <tr>
+                                             <td>
+                                                <p class="ket-waktu mt-0">
+                                                    3 Hours ago
+                                                </p>
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                             <td>
+                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae hic, error rem neque dolor fugit placeat magnam repudiandae perferendis magni ullam fuga, doloremque harum quae. Nesciunt voluptatibus doloribus sed iusto.
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="btn btn-like m-1 p-0 m-0"><a href="#" id="likeku" class="btn btn-like likeku">Like</a> </td>
+                                            <td class="btn btn-like m-1 border">comment</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="count-likes p-0 ml-2 btn">
+                                                10 likes
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td colspan="2">
+                                <form action="">
+                                    <div class="input-group mb-2">
+                                        <input type="text" class="form-control" placeholder="comment here..." aria-label="search">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="input-group-text search-logos"><i class="fas fa-paper-plane fa-sm"></i></button>
+                                      </div>
+                                    </div>
+                                    </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="col-12 border isistatus mb-4">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="align-top">
+                                <img class="foto-status rounded-circle border" src="frontend/images/profile.png" alt="">
+                                    <td>
+                                    <table>
+                                        <tr>
+                                            <th>
+                                            Elfarian Dela Virduasa
+                                            </th>
+                                            <td>@elfarian </td>
+                                         </tr>
+                                         <tr>
+                                             <td>
+                                                <p class="ket-waktu mt-0">
+                                                    3 Hours ago
+                                                </p>
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                             <td>
+                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae hic, error rem neque dolor fugit placeat magnam repudiandae perferendis magni ullam fuga, doloremque harum quae. Nesciunt voluptatibus doloribus sed iusto.
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="btn btn-like m-1 border">like</td>
+                                            <td class="btn btn-like m-1 border">comment</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="count-likes p-0 ml-2 btn">
+                                                10 likes
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td colspan="2">
+                                <form action="">
+                                    <div class="input-group mb-2">
+                                        <input type="text" class="form-control" placeholder="comment here..." aria-label="search">
+                                      <div class="input-group-prepend">
+                                        <button type="button" class="input-group-text search-logos"><i class="fas fa-paper-plane fa-sm"></i></button>
+                                      </div>
+                                    </div>
+                                    </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>               
+        
+    </div>
+</div>
+   
+<footer class="section-footer mt-5 mb-4 border-top container-fluid">
+    <div class="row border-top justify-content-center align-items-center pt-4">
+        <div class="col-auto text-gray-500 font-weight-light  mb-2 ml-2 ">
+            OURBOOK
+        </div>
+    </div>
+</footer>
+
+    
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/scripts/script.js"></script>
+</body>
+</html>
