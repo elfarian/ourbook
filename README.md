@@ -1,3 +1,20 @@
+## Tampilan dari Aplikasi Ourbook
+
+<p align="center"><img src="https://cdn.dribbble.com/users/4836091/screenshots/13911484/media/c97b5b5ac21e65d477b43f267fe50ae0.png" width="400"></p>
+
+Untuk menggunakan aplikasi Ourbook yang dilakukan pertama kali adalah mendaftar, kemudian mengkonfirmasi email yang telah dikirim.
+Setelah itu user dapat masuk kedalam aplikasi dan login. Dalam aplikasi tersebut user dapat melakukan:
+
+- Melihat foto/status yang diupload user lain
+- Memfollow atau Unfollow user lain
+- Mengirim pesan ke user lain
+- Mengubah profile (Nama, Foto, Banner, Username)
+- User dapat mencari user lainnya
+
+Sekian Projek Ourbook ini. Terimakasih
+
+<<<<<<<=============================================================================>>>>>>>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
